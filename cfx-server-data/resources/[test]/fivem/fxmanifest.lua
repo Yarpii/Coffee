@@ -1,5 +1,4 @@
--- compatibility wrapper
 fx_version 'adamant'
-game 'common'
+game 'gta'
 
 dependency 'basic-gamemode'

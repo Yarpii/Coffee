@@ -1,11 +1,14 @@
--- add scripts
-client_script 'playernames_api.lua'
-server_script 'playernames_api.lua'
+fx_version 'adamant'
+game 'gta5'
 
-client_script 'playernames_cl.lua'
-server_script 'playernames_sv.lua'
-
--- make exports
+client_scripts {
+	'playernames_api.lua',
+	'playernames_cl.lua'
+}
+server_scripts {
+	'playernames_api.lua',
+	'playernames_sv.lua'
+}
 local exportList = {
     'setComponentColor',
     'setComponentAlpha',
@@ -14,15 +17,8 @@ local exportList = {
     'setHealthBarColor',
     'setNameTemplate'
 }
-
 exports(exportList)
 server_exports(exportList)
-
--- add files
 files {
     'template/template.lua'
 }
-
--- support the latest resource manifest
-fx_version 'adamant'
-game 'gta5'

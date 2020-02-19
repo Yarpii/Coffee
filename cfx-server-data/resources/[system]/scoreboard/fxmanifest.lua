@@ -1,10 +1,8 @@
-description 'Scoreboard'
+fx_version 'adamant'
+game 'gta5'
 
--- temporary!
 ui_page 'html/scoreboard.html'
-
 client_script 'scoreboard.lua'
-
 files {
     'html/scoreboard.html',
     'html/style.css',
@@ -16,6 +14,3 @@ files {
     'html/res/futurastd-medium.ttf',
     'html/res/futurastd-medium.svg',
 }
-
-fx_version 'adamant'
-game 'gta5'

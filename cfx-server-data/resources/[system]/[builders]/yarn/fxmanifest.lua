@@ -1,4 +1,4 @@
 fx_version 'adamant'
-game 'common'
+game 'gta5'
 
 server_script 'yarn_builder.js'
